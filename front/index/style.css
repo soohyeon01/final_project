@@ -1,0 +1,171 @@
+header {
+    background-color: rgb(109, 132, 184);
+    margin: 10px;
+    padding: 20px;
+}
+
+h1 {
+    padding: 16px 24px;
+    margin: 0;
+    font-size: 16px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+/*header navbar*/
+* {
+    padding: 0;
+    margin: 0
+}
+
+.menu {
+    width: 800px;
+    overflow: hidden;
+    margin: 150px auto;
+    display: flex;
+}
+
+.menu>li {
+    width: 20%;
+    /*20*5=100%*/
+    float: left;
+    text-align: center;
+    line-height: 40px;
+    background-color: #fefefe;
+}
+
+li {
+    list-style: none
+}
+
+.menu a {
+    color: #000000;
+}
+
+a {
+    text-decoration: none;
+    font-size: 14px
+}
+
+.submenu {
+    height: 0;
+    /*ul�� ���̸� �Ⱥ��̰� ó��*/
+    overflow: hidden;
+}
+
+.submenu>li {
+    line-height: 50px;
+    background-color: rgb(109, 132, 184);
+}
+
+.menu>li:hover {
+    background-color: rgb(109, 132, 184);
+    transition-duration: 0.5s;
+}
+
+.menu>li:hover .submenu {
+    height: 250px;
+    /*����޴�? li�Ѱ��� ���� 50*5*/
+    transition-duration: 1s;
+}
+
+section {
+    width: 70%;
+    height: 600px;
+    background-color: rgb(109, 132, 184);
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+article {
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.sidebar {
+    width: 30%;
+    height: 600px;
+    background-color: rgb(109, 132, 184);
+    margin: 10px;
+    padding: 10px;
+    float: right;
+}
+
+.container {
+    background-color: rgb(109, 132, 184);
+    /*����*/
+    display: flex;
+    /*��ҵ�? �߾� ��ġ*/
+    flex-direction: row;
+    padding: 32px 0;
+    /*�� �Ʒ� ��������*/
+}
+
+.input-container {
+    width: 80%;
+    /*����*/
+    display: flex;
+    align-self: center;
+    /*�ڵ� �߾� ��ġ*/
+    justify-content: space-between;
+    /*�ڵ� �Ÿ��α�*/
+}
+
+#input {
+    width: 70%;
+    padding: 8px 12px;
+    /*����*/
+    border-radius: 4px;
+    /*�Է�â�� �𼭸��� �ձ۰�*/
+    border: 1px solid #eaeaea;
+    /*���?*/
+}
+
+#search-button {
+    width: 20%;
+    background-color: rgb(109, 132, 184);
+    border-radius: 4px;
+    border: 1px solid rgb(109, 132, 184);
+    color: white;
+}
+
+.list-container {
+    display: flex;
+    flex-direction: column;
+    /*�������� ����*/
+    margin-top: 48px;
+    /*�Է�â�� �Ÿ��� �д�.*/
+    width: 80%;
+    align-self: center;
+    border-radius: 4px;
+    border: 1px solid #eaeaea;
+    background-color: white;
+}
+
+.list-item {
+    border-bottom: 1px solid #eaeaea;
+    margin-right: 32px;
+    margin: 5px;
+    padding: 16px 0;
+    font-size: 14px;
+}
+
+
+main {
+    /* ���η� �����ϱ� */
+    display: flex;
+}
+
+
+
+footer {
+    background-color: rgb(109, 132, 184);
+    margin: 10px;
+    padding: 10px;
+}
+
+footer address a {
+    /* a�� �ζ��� ��ұ�? ������ block���� �����? �������� �����ϰ� �� */
+    display: block;
+}

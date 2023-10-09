@@ -1,0 +1,133 @@
+<!DOCTYPE html> <!--파일이 html 임을 선언-->
+<html lang="ko">
+
+<head> <!--제목, 스타일, 스크립트 메타 정보와 같이 보이지 않는 웹페이지 정보-->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>
+		CORAVEL
+	</title>
+	<link rel="stylesheet" href="style.css"> <!--css와 link-->
+</head>
+
+<body>
+	<div class="title">
+		<header>
+			<hgroup>
+				<h2>떠나요!</h2>
+				<h1>춘천으로</h1>
+			</hgroup>
+		</header>
+
+		<div id="map" style="width:1000px;height:650px;left:15%;"></div>
+		<script src="https://dapi.kakao.com/v2/maps/sdk.js?appkey=64808b61179f96719acaf40501a0a070"></script>
+		<script src="C:\capstone_coravel\front\API\kakaoapi.js"></script>
+		<script src="C:\capstone_coravel\front\API\map_controler.js"></script>
+		<script src="C:\capstone_coravel\front\API\map_maker.js"></script>
+
+		<nav>
+			<ul class="menu">
+				<li>
+					<a href="#">관광명소</a>
+					<ul class="submenu">
+						<li><a href="#">submenu01</a></li>
+						<li><a href="#">submenu02</a></li>
+						<li><a href="#">submenu03</a></li>
+						<li><a href="#">submenu04</a></li>
+						<li><a href="#">submenu05</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="#">축제/즐길거리</a>
+					<ul class="submenu">
+						<li><a href="#">submenu01</a></li>
+						<li><a href="#">submenu02</a></li>
+						<li><a href="#">submenu03</a></li>
+						<li><a href="#">submenu04</a></li>
+						<li><a href="#">submenu05</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="#">피크닉/라이딩</a>
+					<ul class="submenu">
+						<li><a href="#">submenu01</a></li>
+						<li><a href="#">submenu02</a></li>
+						<li><a href="#">submenu03</a></li>
+						<li><a href="#">submenu04</a></li>
+						<li><a href="#">submenu05</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="#">반려동물과 함께</a>
+					<ul class="submenu">
+						<li><a href="#">submenu01</a></li>
+						<li><a href="#">submenu02</a></li>
+						<li><a href="#">submenu03</a></li>
+						<li><a href="#">submenu04</a></li>
+						<li><a href="#">submenu05</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="#">식당/카페</a>
+					<ul class="submenu">
+						<li><a href="#">submenu01</a></li>
+						<li><a href="#">submenu02</a></li>
+						<li><a href="#">submenu03</a></li>
+						<li><a href="#">submenu04</a></li>
+						<li><a href="#">submenu05</a></li>
+					</ul>
+				</li>
+			</ul>
+		</nav>
+
+
+		<main>
+			<section>
+				<h1>Section</h1>
+				<article>
+					<h2>장소 1</h2>
+					<p>어쩌고...</p>
+				</article>
+				<article>
+					<h2>장소2</h2>
+					<p>어쩌고...</p>
+				</article>
+				<article>
+					<h2>장소3</h2>
+					<p>어쩌고...</p>
+				</article>
+			</section>
+
+			<aside class="sidebar">
+				<div class='content'>
+					<div class='input-container'>
+						<input id='input' placeholder="검색어를 입력하세요" />
+						<button id='search-button'>검색</button>
+					</div>
+					<div class='list-container'>
+						<h1> 인기많은 장소</h1>
+						<ul id="list">
+							<li class="list-item">▶ 강아지숲</li>
+							<li class="list-item">▶ 남이섬</li>
+							<li class="list-item">▶ 레고랜드</li>
+						</ul>
+					</div>
+				</div>
+			</aside>
+
+
+		</main>
+
+		<footer>
+			<address>
+				<a href="https://github.com/soohyeon01/final_project">GITHUB</a>
+			</address>
+		</footer>
+
+</body>
+<script src="app.js"></script>
+
+</html>
+
+
+<!--https://wogud6792.tistory.com/17-->
