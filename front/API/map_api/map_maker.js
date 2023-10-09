@@ -4,7 +4,7 @@ var imageSrc = "https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/markerS
       
 // 마커의 이미지정보를 가지고 있는 마커이미지를 생성합니다
 var markerImage = new kakao.maps.MarkerImage(imageSrc, imageSize, imageOption),
-    markerPosition = new kakao.maps.LatLng(37.88646, 127.73712); // 마커가 표시될 위치입니다
+    markerPosition = new kakao.maps.LatLng(37.88141792069764, 127.72976998296438 ); // 마커가 표시될 위치입니다
 
 // 마커를 생성합니다
 var marker = new kakao.maps.Marker({
@@ -18,8 +18,8 @@ marker.setMap(map);
 // 아래 코드는 지도 위의 마커를 제거하는 코드입니다
 // marker.setMap(null);   
 
-var iwContent = '<div style="padding:5px;">Hello World! <br><a href="https://map.kakao.com/link/map/Hello World!,37.88646, 127.73712" style="color:skyblue" target="_blank">큰지도보기</a> <a href="https://map.kakao.com/link/to/Hello World!,33.450701,126.570667" style="color:skyblue" target="_blank">길찾기</a></div>', // 인포윈도우에 표출될 내용으로 HTML 문자열이나 document element가 가능합니다
-    iwPosition = new kakao.maps.LatLng(37.88646, 127.73712); //인포윈도우 표시 위치입니다    
+var iwContent = '<div style="padding:5px;">Hello World! <br><a href="https://map.kakao.com/link/map/Hello World!,37.88141792069764, 127.72976998296438 " style="color:skyblue" target="_blank">큰지도보기</a> <a href="https://map.kakao.com/link/to/Hello World!,33.450701,126.570667" style="color:skyblue" target="_blank">길찾기</a></div>', // 인포윈도우에 표출될 내용으로 HTML 문자열이나 document element가 가능합니다
+    iwPosition = new kakao.maps.LatLng(37.88, 127.40); //인포윈도우 표시 위치입니다    
     iwRemoveable = true;
 
 // 인포윈도우를 생성합니다
