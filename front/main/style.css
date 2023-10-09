@@ -93,33 +93,33 @@ article {
 
 .container {
     background-color: rgb(109, 132, 184);
-    /*占쏙옙占쏙옙*/
+    /*배경색*/
     display: flex;
-    /*占쏙옙撚占? 占쌩억옙 占쏙옙치*/
+    /*요소들 중앙 배치*/
     flex-direction: row;
     padding: 32px 0;
-    /*占쏙옙 占싣뤄옙 占쏙옙占쏙옙占쏙옙占쏙옙*/
+    /*위 아래 여백지정*/
 }
 
 .input-container {
     width: 80%;
     margin: 3%;
-    /*占쏙옙占쏙옙*/
+    /*넓이*/
     display: flex;
     align-self: center;
-    /*占쌘듸옙 占쌩억옙 占쏙옙치*/
+    /*자동 중앙 배치*/
     justify-content: space-between;
-    /*占쌘듸옙 占신몌옙占싸깍옙*/
+    /*자동 거리두기*/
 }
 
 #input {
     width: 70%;
     padding: 8px 12px;
-    /*占쏙옙占쏙옙*/
+    /*여백*/
     border-radius: 4px;
-    /*占쌉뤄옙창占쏙옙 占쏜서몌옙占쏙옙 占쌌글곤옙*/
+    /*입력창의 모서리를 둥글게*/
     border: 1px solid #eaeaea;
-    /*占쏙옙雍?*/
+    /*경계선*/
 }
 
 #search-button {
@@ -137,9 +137,9 @@ aside h1 {
 .list-container {
     display: flex;
     flex-direction: column;
-    /*占쏙옙占쏙옙占쏙옙占쏙옙 占쏙옙占쏙옙*/
+    /*수직으로 쌓음*/
     margin-top: 48px;
-    /*占쌉뤄옙창占쏙옙 占신몌옙占쏙옙 占싻댐옙.*/
+    /*입력창과 거리를 둔다*/
     width: 80%;
     margin: 10% 3%;
     align-self: center;
@@ -157,7 +157,7 @@ aside h1 {
 }
 
 main {
-    /* 占쏙옙占싸뤄옙 占쏙옙占쏙옙占싹깍옙 */
+    /* 가로로 정렬하기 */
     display: flex;
 }
 
@@ -169,6 +169,6 @@ footer {
 }
 
 footer address a {
-    /* a占쏙옙 占싸띰옙占쏙옙 占쏙옙耐占? 占쏙옙占쏙옙占쏙옙 block占쏙옙占쏙옙 占쏙옙占쏙옙底? 占쏙옙占쏙옙占쏙옙占쏙옙 占쏙옙占쏙옙占싹곤옙 占쏙옙 */
+    /* a는 인라인 요소기 때문에 block으로 만들어서 수직으로 정렬하게 함 */
     display: block;
 }
