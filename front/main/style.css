@@ -47,7 +47,7 @@ a {
 
 .submenu {
     height: 0;
-    /*ul�� ���̸� �Ⱥ��̰� ó��*/
+    /*ul의 높이를 안보이게 처리*/
     overflow: hidden;
 }
 
@@ -63,7 +63,7 @@ a {
 
 .menu>li:hover .submenu {
     height: 250px;
-    /*����޴�? li�Ѱ��� ���� 50*5*/
+    /*占쏙옙占쏙옙濱占? li占싼곤옙占쏙옙 占쏙옙占쏙옙 50*5*/
     transition-duration: 1s;
 }
 
@@ -93,33 +93,33 @@ article {
 
 .container {
     background-color: rgb(109, 132, 184);
-    /*����*/
+    /*占쏙옙占쏙옙*/
     display: flex;
-    /*��ҵ�? �߾� ��ġ*/
+    /*占쏙옙撚占? 占쌩억옙 占쏙옙치*/
     flex-direction: row;
     padding: 32px 0;
-    /*�� �Ʒ� ��������*/
+    /*占쏙옙 占싣뤄옙 占쏙옙占쏙옙占쏙옙占쏙옙*/
 }
 
 .input-container {
     width: 80%;
     margin: 3%;
-    /*����*/
+    /*占쏙옙占쏙옙*/
     display: flex;
     align-self: center;
-    /*�ڵ� �߾� ��ġ*/
+    /*占쌘듸옙 占쌩억옙 占쏙옙치*/
     justify-content: space-between;
-    /*�ڵ� �Ÿ��α�*/
+    /*占쌘듸옙 占신몌옙占싸깍옙*/
 }
 
 #input {
     width: 70%;
     padding: 8px 12px;
-    /*����*/
+    /*占쏙옙占쏙옙*/
     border-radius: 4px;
-    /*�Է�â�� �𼭸��� �ձ۰�*/
+    /*占쌉뤄옙창占쏙옙 占쏜서몌옙占쏙옙 占쌌글곤옙*/
     border: 1px solid #eaeaea;
-    /*���?*/
+    /*占쏙옙雍?*/
 }
 
 #search-button {
@@ -137,9 +137,9 @@ aside h1 {
 .list-container {
     display: flex;
     flex-direction: column;
-    /*�������� ����*/
+    /*占쏙옙占쏙옙占쏙옙占쏙옙 占쏙옙占쏙옙*/
     margin-top: 48px;
-    /*�Է�â�� �Ÿ��� �д�.*/
+    /*占쌉뤄옙창占쏙옙 占신몌옙占쏙옙 占싻댐옙.*/
     width: 80%;
     margin: 10% 3%;
     align-self: center;
@@ -157,7 +157,7 @@ aside h1 {
 }
 
 main {
-    /* ���η� �����ϱ� */
+    /* 占쏙옙占싸뤄옙 占쏙옙占쏙옙占싹깍옙 */
     display: flex;
 }
 
@@ -169,6 +169,6 @@ footer {
 }
 
 footer address a {
-    /* a�� �ζ��� ��ұ�? ������ block���� �����? �������� �����ϰ� �� */
+    /* a占쏙옙 占싸띰옙占쏙옙 占쏙옙耐占? 占쏙옙占쏙옙占쏙옙 block占쏙옙占쏙옙 占쏙옙占쏙옙底? 占쏙옙占쏙옙占쏙옙占쏙옙 占쏙옙占쏙옙占싹곤옙 占쏙옙 */
     display: block;
 }
