@@ -63,7 +63,7 @@ a {
 
 .menu>li:hover .submenu {
     height: 250px;
-    /*占쏙옙占쏙옙濱占? li占싼곤옙占쏙옙 占쏙옙占쏙옙 50*5*/
+    /*서브메뉴 li한개의 높이 50*5*/
     transition-duration: 1s;
 }
 
